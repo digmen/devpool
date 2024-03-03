@@ -1,0 +1,86 @@
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    margin-top: 30px;
+}
+
+.hero span {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.block_turnirov {
+    margin-block: 20px;
+    padding-inline: 100px;
+}
+
+.block_tur_title {
+    font-size: 32px;
+}
+
+.turnir_card,
+.turnir_link {
+    display: block;
+    width: 280px;
+    border: 1px solid #E4E7EC;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.turnir_card img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.block_turnir_card {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.text_in_card {
+    padding: 5px;
+}
+
+.text_in_card ul {
+    padding: 10px;
+    list-style: none;
+}
+
+
+.name_tur {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.price_fund,
+.format_tur {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.price_fund {
+    color: rgb(79, 134, 211);
+}
+
+.data {
+    color: #78858F;
+    font-size: 14px;
+    font-weight: 300;
+}
